@@ -1,0 +1,85 @@
+body {  
+	background-color: black;
+    background-size: 100%;
+
+}
+.steam_img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.tg_img {
+    width: 80px;
+    height: 80px;
+}
+.lolz_img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.img {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+@media only screen and (min-width: 1450px) {
+.steam_img {
+    width: 90px;
+    height: 90px;
+    margin-right: 15px;
+}
+.tg_img {
+    width: 90px;
+    height: 90px;
+    margin-left: 15px;
+}
+.lolz_img {
+    width: 90px;
+    height: 90px;
+}
+}
+
+@media only screen and (min-width: 1550px) {
+.steam_img {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+}
+.tg_img {
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+}
+.lolz_img {
+    width: 100px;
+    height: 100px;
+}
+}
+@media only screen and (min-width: 1750px) {
+.steam_img {
+    width: 110px;
+    height: 110px;
+    margin-right: 15px;
+}
+.tg_img {
+    width: 110px;
+    height: 110px;
+    margin-left: 15px;
+}
+.lolz_img {
+    width: 110px;
+    height: 110px;
+}
+}
+@media screen and (max-width: 768px) {
+.img {
+    display: flex;
+    flex-wrap: column;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+}
+
